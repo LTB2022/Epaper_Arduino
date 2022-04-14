@@ -3,7 +3,7 @@
 To assign digital pins you must edit them on the "epdif.h" file. The pinouts may be assigned to any digital pin but the pinouts that works in this example is below:
 
 // Pin definition
-NOTE: Color description is just for reference
+NOTE: Color description is for reference
 
 //White
 #define RST_PIN         12
