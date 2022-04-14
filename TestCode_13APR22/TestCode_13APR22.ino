@@ -74,7 +74,10 @@ void setup() {
   paint.Clear(UNCOLORED);
   paint.DrawStringAt(10, 4, "Little Time Buddy", &Font24, COLORED);
   epd.SetFrameMemory(paint.GetImage(), 50, 50, paint.GetWidth(), paint.GetHeight());
-
+  
+  paint.Clear(UNCOLORED);
+  paint.DrawStringAt(10, 4, "Buddy", &Font24, COLORED);
+  epd.SetFrameMemory(paint.GetImage(), 30, 100, paint.GetWidth(), paint.GetHeight());
   epd.DisplayFrame();
 
   delay(2000);
