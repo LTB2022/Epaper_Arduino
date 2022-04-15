@@ -72,7 +72,7 @@ void setup() {
   /* For simplicity, the arguments are explicit numerical coordinates */
 
   paint.Clear(UNCOLORED);
-  paint.DrawStringAt(10, 4, "Little Time Buddy", &Font24, COLORED);
+  paint.DrawStringAt(10, 4, "Little Time", &Font24, COLORED);
   epd.SetFrameMemory(paint.GetImage(), 50, 50, paint.GetWidth(), paint.GetHeight());
   
   paint.Clear(UNCOLORED);
